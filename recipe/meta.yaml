@@ -1,18 +1,18 @@
 {% set name = "pyjsg" %}
-{% set version = "0.11.10" %}
+{% set version = "0.12.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/PyJSG-{{ version }}.tar.gz
-  sha256: 4bd6e3ff2833fa2b395bbe803a2d72a5f0bab5b7285bccd0da1a1bc0aee88bfa
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 09d147060e1450a91c25ad3f3632de3e1f066270e7ec96b202877673a7db8cd8
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
   entry_points:
     - generate_parser = pyjsg.parser_impl.generate_python:generate
 
