@@ -3,11 +3,13 @@ About pyjsg-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyjsg-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/hsolbrig/pyjsg
+Home: https://pypi.org/project/pyjsg
 
 Package license: CC0-1.0
 
 Summary: Python JSON Schema Grammar interpreter
+
+Development: https://github.com/linkml/pyjsg
 
 Current build status
 ====================
@@ -188,5 +190,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@bollwyvl](https://github.com/bollwyvl/)
 * [@jfy133](https://github.com/jfy133/)
 
