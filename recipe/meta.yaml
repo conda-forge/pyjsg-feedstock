@@ -1,5 +1,5 @@
 {% set name = "pyjsg" %}
-{% set version = "0.12.3" %}
+{% set version = "0.12.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 09d147060e1450a91c25ad3f3632de3e1f066270e7ec96b202877673a7db8cd8
+  sha256: bb1c0ff1f50846d2b5185b182e28b0b6978eae51a2078ce3eb1e0f28dea7b9ab
 
 build:
   noarch: python
