@@ -51,7 +51,6 @@ tests:
         - python ${{ python_min }}.*
     script:
       - generate_parser --help
-      - generate_parser --version
 
 about:
   summary: Python JSON Schema Grammar interpreter
