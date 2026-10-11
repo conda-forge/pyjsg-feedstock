@@ -29,7 +29,6 @@ requirements:
     - python ${{ python_min }}.*
     - uv-dynamic-versioning
   run:
-    - antlr4-python3-runtime >=4.9.3,<4.10.dev0
     - jsonasobj >=1.2.1
     - python >=${{ python_min }}
     - requests
@@ -48,6 +47,7 @@ tests:
         - ${{ python_check_max }}.*
   - requirements:
       run:
+        - antlr4-python3-runtime >=4.13.2,<4.14
         - python ${{ python_min }}.*
     script:
       - generate_parser --help
